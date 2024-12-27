@@ -36,3 +36,12 @@ The process of identifying the optimal parameters may take some time to complete
 <div style="text-align: justify;">
 If desired, this caching feature can be disabled for manual parameter testing. Additionally, after running the tests, you can inspect the saved results file to review the optimized parameters and their corresponding configurations.
 </div>
+
+## Installation
+
+<div style="text-align: justify;">
+You can install this package directly from PyPI using <code>pip</code>. Follow the command below to install:
+</div>
+
+```bash
+pip install dataloader-param-helper
