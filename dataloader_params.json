@@ -1,0 +1,44 @@
+{
+    "[CPU: 13th Gen Intel(R) Core(TM) i9-13900H] [CPU Memory: 15.5 GB] [GPU: NVIDIA GeForce RTX 4060 Laptop GPU]": {
+        "cuda": {
+            "batch_size_8": {
+                "batch_size": 8,
+                "num_workers": 10,
+                "prefetch_factor": 4,
+                "pin_memory": 1,
+                "persistent_workers": 1,
+                "avr_runtime_ms": 6.857,
+                "test_time_sec": 57
+            },
+            "batch_size_32": {
+                "batch_size": 32,
+                "num_workers": 10,
+                "prefetch_factor": 6,
+                "pin_memory": 1,
+                "persistent_workers": 0,
+                "avr_runtime_ms": 25.888,
+                "test_time_sec": 50
+            }
+        },
+        "cpu": {
+            "batch_size_8": {
+                "batch_size": 8,
+                "num_workers": 10,
+                "prefetch_factor": 2,
+                "pin_memory": 0,
+                "persistent_workers": 1,
+                "avr_runtime_ms": 6.464,
+                "test_time_sec": 71
+            },
+            "batch_size_32": {
+                "batch_size": 32,
+                "num_workers": 10,
+                "prefetch_factor": 1,
+                "pin_memory": 0,
+                "persistent_workers": 0,
+                "avr_runtime_ms": 24.383,
+                "test_time_sec": 56
+            }
+        }
+    }
+}
